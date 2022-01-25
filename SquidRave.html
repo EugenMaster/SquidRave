@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Squid Rave v1.0.0</title>
+    <style>
+        h1 {
+            font-family: sans-serif;
+        }
+
+        p {
+            font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <script>
+        var raveSpeed = 120;
+
+        function ColorBlack() {
+            document.body.style.backgroundColor="#000000"
+            document.body.style.color="#ffffff"
+        }
+        function ColorWhite() {
+            document.body.style.backgroundColor="#ffffff"
+            document.body.style.color="#000000"
+        }
+        setInterval(ColorBlack, raveSpeed);
+        setTimeout(() => setInterval(ColorWhite, raveSpeed), raveSpeed/2);
+    </script>
+    <h1>SquidRave&copy;&reg;&trade;</h1>
+    <p>
+     .--'''''''''--.
+  .'      .---.      '.
+ /    .-----------.    \
+/        .-----.        \
+|       .-.   .-.       |
+|      /   \ /   \      |
+ \    | .-. | .-. |    /
+  '-._| | | | | | |_.-'
+      | '-' | '-' |
+       \___/ \___/
+    _.-'  /   \  `-._
+  .' _.--|     |--._ '.
+  ' _...-|     |-..._ '
+         |     |
+         '.___.'
+           | |
+          _| |_
+         /\( )/\
+        /  ` '  \
+       | |     | |
+       '-'     '-'
+       | |     | |
+       | |     | |
+       | |-----| |
+    .`/  |     | |/`.
+    |    |     |    |
+    '._.'| .-. |'._.'
+          \ | /
+          | | |
+          | | |
+          | | |
+         /| | |\
+       .'_| | |_`.
+    .    /  |  \    .
+   /o`.-'  / \  `-.`o\
+  /o  o\ .'   `. /o  o\
+  `.___.'       `.___.'
+    </p>
+</body>
+</html>
